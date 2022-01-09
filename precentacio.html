@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Viatges Sistema Solar</title>
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/all.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/regular.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="node_modules/@fortawesome/fontawesome-free/css/solid.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <a href="index.html" class="logo"><i class="fas fa-rocket"></i></a>
+        <div class="header-right">
+          <a href="index.html">Home</a>
+          <a href="categoria.html">Categoria</a>
+          <a class="active" href="#">Presentació</a>
+          <a href="enllaços.html">Enllaços</a>
+        </div>
+      </div>
+    </header>
+    <div class="pres_content">
+      <h1>PRESENTACIÓ</h1>
+      <div class="port_p1">
+        <p>
+          Aquesta web permet accedir a un dels serveis amb més demanda
+          actualment, ja què som la primera agència de viatges que ofereix
+          viatges als planetes del Sistema Solar. Una llarga i dilatada
+          experiència en viatges arreus del món, inclús a la lluna, ens ha fet
+          ser pioners amb aquesta iniciativa que està causant furor entre
+          milians de persones.
+        </p>
+      </div>
+      <a class="logo_pres"><i class="fas fa-rocket"></i></a>
+      <p>
+        En aquest lloc web s'ofereixen una sèrie de viatges programats als
+        planetes del Sistema Solar de Mart, Venus, Saturn, Urà i Neptú. Cadascún
+        d'ells té les seves peculiaritats, la qual cosa permet realitzar i
+        programar diferents activitats per passar-ho bé i disfrutar.
+      </p>
+      <div class="iframe_cont">
+        <iframe
+          class="responsive-iframe"
+          width="960"
+          height="545"
+          src="https://www.youtube.com/embed/XJ3ZMFltQ-8;autoplay=1"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <p>
+        Gaudir dels racons de cada planeta, de les diferents superfícies, i dels
+        fenòmens meteorològics és una experiència única. A més a més, es podràn
+        conéixer les cultures tant diferents de cada planeta en quan als seus
+        habitants. La fisiología dels habitants extraterrestres es molt variada
+        i sorprenent.
+      </p>
+      <div class="pres_imgs">
+        <img
+          src="assets/images/extra.jpeg"
+          srcset="
+            ./assets/images/mobile/extra_mobile.jpeg    300w,
+            ./assets/images/tablet/extra_tablet.jpeg    768w,
+            ./assets/images/desktop/extra_desktop.jpeg 1024w
+          "
+          sizes="
+                (max-width: 800px) 170px,
+                (max-width: 1200px) 268px,
+                400px
+                "
+          alt="extra"
+        />
+        <img
+          src="assets/images/sistema-solar.jpeg"
+          srcset="
+            ./assets/images/mobile/sistema-solar_mobile.jpeg    300w,
+            ./assets/images/tablet/sistema-solar_tablet.jpeg    768w,
+            ./assets/images/desktop/sistema-solar_desktop.jpeg 1024w
+          "
+          sizes="
+                (max-width: 800px) 170px,
+                (max-width: 1200px) 268px,
+                400px
+                "
+          alt="sistema-solar"
+        />
+      </div>
+    </div>
+    <footer class="footer-distributed">
+      <div class="footer-left">
+        <div class="footer-logo">
+          <a href="index.html" class="logo"><i class="fas fa-rocket"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-center">
+        <h3>Viatges<span>SistemaSolar</span></h3>
+        <p class="footer-links">
+          <a href="index.html">Home</a>
+          ·
+          <a href="categoria.html">Categoria</a>
+          ·
+          <a href="precentacio.html">Presentació</a>
+          ·
+          <a href="enllaços.html">Enllaços</a>
+        </p>
+      </div>
+
+      <div class="footer-right">
+        <div class="footer-icons">
+          <a href="#"><i class="fab fa-facebook-square"></i></a>
+          <a href="#"><i class="fab fa-twitter-square"></i></a>
+          <a href="#"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
